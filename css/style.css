@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Baloo Bhaina 2", cursive; */
+}
+.navigation {
+  background-color: whitesmoke;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.navigation div {
+  /* border: 2px solid black; */
+  font-family: "Baloo Bhaina 2", cursive;
+}
+.center {
+  position: absolute;
+  left: 300px;
+  margin: 10px 15px;
+}
+.center li {
+  list-style: none;
+}
+.center li a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.left {
+  font-size: 20px;
+  position: absolute;
+  left: 50px;
+  margin: 10px 15px;
+}
+.right {
+  position: absolute;
+  right: 10px;
+}
+.serch {
+  padding: 4px 4px;
+  border: 2px solid black;
+  border-radius: 4px;
+  outline: none;
+  /* width: 111px; */
+}
+.button{
+    padding: 4px 8px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.front {
+  height: 88vh;
+  width: 215vh;
+}
+/* .inages::before{
+    background-color: whitesmoke;
+} */
+.afterfront {
+  font-family: monospace;
+}
+.afterfront h1 {
+  text-align: center;
+  font-family: serif;
+  padding-bottom: 10px;
+}
+.afterfront h4 {
+  text-align: center;
+}
+.imagesback {
+  /* padding-left: 80px; */
+  /* margin: 0 0 0 300px; */
+}
+.imagesback img {
+  padding: 90px 50px;
+  width: 300px;
+  height: 300px;
+}
+.blackback {
+  margin-top: 30px;
+  position: absolute;
+  right: 0;
+  width: 1100px;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: -1000;
+}
