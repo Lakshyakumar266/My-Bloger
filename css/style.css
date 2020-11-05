@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
 }
 .navigation div {
   font-family: "Baloo Bhaina 2", cursive;
@@ -58,7 +59,7 @@
 }
 .front {
   height: 88vh;
-  width: 215vh;
+  width: 100%;
 }
 .afterfront {
   padding-top: 25px;
