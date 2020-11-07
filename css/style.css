@@ -65,12 +65,14 @@
   padding-top: 25px;
   text-align: center;
   height: 200px;
-  font-family: monospace;
 }
 .afterfront h1 {
   text-align: center;
-  font-family: serif;
   padding-bottom: 10px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.afterfront b {
+  text-decoration: red underline;
 }
 .afterfront h4 {
   text-align: center;
