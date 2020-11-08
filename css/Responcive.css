@@ -22,11 +22,13 @@
     margin: auto;
 }
 .right {   
+  position: absolute;
   top: 152px;
   width: 100%;
   text-align: center;
-  justify-content: center;
+  justify-content: center;  
   align-items: center;
+  right: 0;
 }
 .center {
     text-align: center;
