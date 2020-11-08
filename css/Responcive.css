@@ -15,7 +15,6 @@
     text-align: right;
   }
   .left{
-    position: relative;
     position: absolute;
     left: -22px;
     width: 100%;
@@ -72,6 +71,7 @@
     justify-content: center;
     height: 30px;
     text-align: center;
+    z-index: 11111;
   }
   .lines {
     margin: 2px 0;
@@ -83,8 +83,13 @@
   .h-nav-resp {
     height: 240px;
   }
+  .v-inp-resp {
+    opacity: 0;
+    display: none;
+  }
   .v-class-resp {
-    /* opacity: 0; */
+    opacity: 0;
+    display: none;
   }
   .imagesback img{
     padding: 90px 28px;

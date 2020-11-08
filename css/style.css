@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: 1s;
   width: 100%;
 }
 .navigation div {
@@ -29,7 +30,6 @@
   margin: 0 10px;
   text-decoration: none;
   color: #0056b3;
-  transition: 1s;
 }
 .center a:hover {
   color: blue;
